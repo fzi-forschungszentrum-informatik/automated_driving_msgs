@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>automated_driving_msgs</name>
+  <version>1.0.2</version>
+  <description>ROS messages for automated driving.</description>
+
+  <license>BSD</license>
+  <maintainer email="naumann@fzi.de">Maximilian Naumann</maintainer>
+  <author email="naumann@fzi.de">Maximilian Naumann</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <test_depend>gtest</test_depend>
+
+  <build_depend>roscpp</build_depend>
+  <depend>roslib</depend>
+
+  <depend>geometry_msgs</depend>
+  <depend>shape_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+  </export>
+</package>
