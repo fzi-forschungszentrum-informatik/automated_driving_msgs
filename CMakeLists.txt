@@ -18,6 +18,7 @@ add_message_files(
   ObjectClassification.msg
   ObjectState.msg
   ObjectStateArray.msg
+  StampedFloat64.msg
   Trajectory.msg)
 
 generate_messages(DEPENDENCIES geometry_msgs std_msgs shape_msgs)
