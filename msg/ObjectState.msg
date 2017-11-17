@@ -21,5 +21,6 @@ MotionState motion_state
 MotionPrediction motion_prediction
 
 # Standard Message for the object dimensions
+#    Relative to motion_state/pose/pose
 #    For further details: http://docs.ros.org/api/shape_msgs/html/msg/Mesh.html
 shape_msgs/Mesh hull
