@@ -8,6 +8,8 @@ uint8 BICYCLE=2
 uint8 MOTORBIKE=3
 uint8 CAR=4
 uint8 TRUCK=5
+# Virtual Object (e.g. for behavior generation)
+uint8 VIRTUAL_OBJECT=81
 # If object class is definitely none of the upper, these classes are to be used
 uint8 OTHER_STATIC=91
 uint8 OTHER_DYNAMIC=92
