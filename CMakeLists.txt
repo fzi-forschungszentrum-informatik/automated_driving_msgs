@@ -1,4 +1,3 @@
-#pkg_version=1.3
 #License: BSD
 cmake_minimum_required(VERSION 2.8.3)
 project(automated_driving_msgs)
