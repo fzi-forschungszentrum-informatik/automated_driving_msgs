@@ -1,5 +1,5 @@
 #License: BSD
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.5.1)
 project(automated_driving_msgs)
 
 find_package(catkin REQUIRED COMPONENTS geometry_msgs message_generation std_msgs shape_msgs)
