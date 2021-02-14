@@ -1,6 +1,6 @@
 # Automated Driving Messages for ROS
 
-[![Build Status](https://api.travis-ci.org/fzi-forschungszentrum-informatik/automated_driving_msgs.svg)](https://travis-ci.org/fzi-forschungszentrum-informatik/automated_driving_msgs)
+[![Build Status](https://travis-ci.com/fzi-forschungszentrum-informatik/automated_driving_msgs.svg)](https://travis-ci.com/fzi-forschungszentrum-informatik/automated_driving_msgs)
 
 
 Extending the standard messages (https://github.com/ros/common_msgs).
