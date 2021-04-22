@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='utf-8'?>
 <package format="2">
   <name>automated_driving_msgs</name>
   <version>1.0.2</version>
   <description>ROS messages for automated driving.</description>
 
   <license>BSD</license>
-  <maintainer email="naumann@fzi.de">Maximilian Naumann</maintainer>
+  <maintainer email="lingguang.wang@kit.edu">Lingguang Wang</maintainer>
   <author email="naumann@fzi.de">Maximilian Naumann</author>
 
   <buildtool_depend>catkin</buildtool_depend>
