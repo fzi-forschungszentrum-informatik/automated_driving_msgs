@@ -20,10 +20,14 @@ if(${ROS_VERSION} EQUAL 2)
         std_msgs
     )
 
+    set(DURATION_TYPE "builtin_interfaces/Duration")
+    configure_file(msg/DeltaPoseWithDeltaTime.msg.in msg/DeltaPoseWithDeltaTime.msg @ONLY)
+
     set(msg_files
         "msg/AdditionalHeaderForCommunication.msg"
         "msg/BasicSafetyMessage.msg"
         "msg/ClassWithProbability.msg"
+        "${CMAKE_BINARY_DIR}:msg/DeltaPoseWithDeltaTime.msg"
         "msg/DeltaTrajectory.msg"
         "msg/MotionPrediction.msg"
         "msg/MotionState.msg"
@@ -53,6 +57,15 @@ elseif(${ROS_VERSION} EQUAL 1)
         std_msgs
     )
 
+    set(DURATION_TYPE "duration")
+    configure_file(msg/DeltaPoseWithDeltaTime.msg.in msg/DeltaPoseWithDeltaTime.msg @ONLY)
+
+    add_message_files(
+        DIRECTORY "${CMAKE_BINARY_DIR}/msg"
+        FILES "DeltaPoseWithDeltaTime.msg"
+        NOINSTALL
+    )
+
     add_message_files(
         DIRECTORY msg
         FILES
@@ -80,6 +93,11 @@ elseif(${ROS_VERSION} EQUAL 1)
         message_runtime
         shape_msgs
         std_msgs
+    )
+
+    install(
+	  FILES "${CMAKE_BINARY_DIR}/msg/DeltaPoseWithDeltaTime.msg"
+   	  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/msg
     )
 
 endif()
