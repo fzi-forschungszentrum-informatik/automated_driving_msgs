@@ -1,6 +1,6 @@
 # Message for a stamped float64
 # License: BSD
 
-Header header
+std_msgs/Header header
 
 float64 data

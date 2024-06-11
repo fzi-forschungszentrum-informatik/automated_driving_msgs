@@ -2,7 +2,7 @@
 # License: BSD
 
 # Header
-Header header
+std_msgs/Header header
 AdditionalHeaderForCommunication communication_header
 
 # Content: Own Object State

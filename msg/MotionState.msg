@@ -4,7 +4,7 @@
 
 # Header
 #   frame_id of the global reference frame (common: "map", "odom")
-Header header
+std_msgs/Header header
 
 #   frame_id of the child frame that this MotionState describes (common: "vehicle", "sensor_x")
 string child_frame_id

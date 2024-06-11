@@ -2,7 +2,7 @@
 # License: BSD
 
 # Header
-Header header
+std_msgs/Header header
 
 # Possible Trajectories (including their probability)
 #    Sorted descending by probability (highest first)
