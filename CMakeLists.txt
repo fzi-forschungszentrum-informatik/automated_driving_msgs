@@ -100,4 +100,7 @@ elseif(${ROS_VERSION} EQUAL 1)
    	  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/msg
     )
 
+else()
+    message(FATAL_ERROR "Unsupported ROS version detected: ROS_VERSION ${ROS_VERSION}. Only ROS_VERSION 1 and 2 are supported.")
 endif()
+
