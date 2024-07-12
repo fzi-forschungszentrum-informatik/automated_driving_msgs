@@ -2,7 +2,7 @@
 # License: BSD
 
 # Header
-Header header
+std_msgs/Header header
 
 # Lifetime ID of the object
 uint32 object_id

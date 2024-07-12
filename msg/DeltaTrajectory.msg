@@ -2,7 +2,7 @@
 # License: BSD
 
 # Header
-Header header
+std_msgs/Header header
 
 # Array of desired delta positions with their respective delta time, after which the position is to be reached
 DeltaPoseWithDeltaTime[] delta_poses_with_delta_time

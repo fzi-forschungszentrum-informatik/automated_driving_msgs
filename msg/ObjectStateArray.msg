@@ -2,7 +2,7 @@
 # License: BSD
 
 # Header
-Header header
+std_msgs/Header header
 
 # Array of object states
 ObjectState[] objects
