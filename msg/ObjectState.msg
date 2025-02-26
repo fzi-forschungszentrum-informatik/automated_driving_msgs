@@ -20,6 +20,9 @@ MotionState motion_state
 # Current motion prediction of the object
 MotionPrediction motion_prediction
 
+# Dimensions of the object
+ObjectDimensions dimensions
+
 # Standard Message for the object dimensions
 #    Relative to motion_state/pose/pose
 #    For further details: http://docs.ros.org/api/shape_msgs/html/msg/Mesh.html
