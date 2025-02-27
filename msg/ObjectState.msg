@@ -20,10 +20,12 @@ MotionState motion_state
 # Current motion prediction of the object
 MotionPrediction motion_prediction
 
-# Dimensions of the object
-ObjectDimensions dimensions
-
-# Standard Message for the object dimensions
+# An oriented bounding box surrounding the object
 #    Relative to motion_state/pose/pose
+BoundingBox bounding_box
+
+# A convex hull surrounding the object
+#    Relative to motion_state/pose/pose
+#    Similiar to bounding_box but capable of representing more complex shapes
 #    For further details: http://docs.ros.org/api/shape_msgs/html/msg/Mesh.html
 shape_msgs/Mesh hull
