@@ -26,6 +26,7 @@ if(${ROS_VERSION} EQUAL 2)
     set(msg_files
         "msg/AdditionalHeaderForCommunication.msg"
         "msg/BasicSafetyMessage.msg"
+        "msg/BoundingBox.msg"
         "msg/ClassWithProbability.msg"
         "${CMAKE_BINARY_DIR}:msg/DeltaPoseWithDeltaTime.msg"
         "msg/DeltaTrajectory.msg"
@@ -71,6 +72,7 @@ elseif(${ROS_VERSION} EQUAL 1)
         FILES
             "AdditionalHeaderForCommunication.msg"
             "BasicSafetyMessage.msg"
+            "BoundingBox.msg"
             "ClassWithProbability.msg"
             "DeltaTrajectory.msg"
             "MotionPrediction.msg"
